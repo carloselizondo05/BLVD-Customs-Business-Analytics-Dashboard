@@ -2,8 +2,11 @@
 
 **Industry:** E-commerce · Streetwear & Custom Embroidery  
 **Location:** Mississauga, ON  
-**Period:** January 2021 – September 2021  
-**Role:** Co-Founder · Data & Business Analytics
+**Period:** January 2021 – August 2021  
+**Role:** Co-Founder · Data & Business Analytics  
+**Tools:** Google Sheets · Pivot Tables · Charts & Data Visualization · Cost-Plus & Value-Based Pricing Models
+
+> 📊 [View the Live Dashboard →](https://docs.google.com/spreadsheets/d/1z7cTvMU6dy4GsNDx1_Ip-Bn9XxaqkmnS3O8L3R_Fujc/edit?usp=sharing)
 
 ---
 
@@ -11,9 +14,7 @@
 
 BLVD Customs was a streetwear brand built from the ground up, handling design, production, marketing, and sales entirely online. From day one, every business decision — what to stock, how to price, who to market to, how to grow — was driven by data tracked in a live Google Sheets dashboard.
 
-This project documents that analytics infrastructure: the questions we were asking as a business, the data we collected to answer them, and the decisions that followed.
-
-> 📊 [View the Live Dashboard →](https://docs.google.com/spreadsheets/d/1z7cTvMU6dy4GsNDx1_Ip-Bn9XxaqkmnS3O8L3R_Fujc/edit?usp=sharing)
+This project documents that analytics infrastructure: the questions we were asking as a business, the data we collected to answer them, and the decisions that followed. This is the earliest example in my portfolio of using data to drive real business decisions under real constraints.
 
 ---
 
@@ -73,12 +74,12 @@ Nike Vintage Sunday was the clear standout with 27 units sold — nearly 4x the 
 
 This section tracked the financial health of the business in real time — from individual order profitability to monthly breakeven tracking.
 
-#### 2.1 Estimated Price Per Order (Scatter Plot)
+#### 2.1 Estimated Price Per Order
 **Business question:** Are we pricing our orders consistently, and are we charging enough?
 
-The scatter plot mapped estimated order value across all transactions. It revealed that the average order hovered around $35–40 in the early months, and crept toward $50+ after our pricing adjustment. Outliers (large bulk orders like the 15-hoodie sorority order at $645) were clearly visible and confirmed that B2B/group orders were a meaningful revenue driver worth pursuing.
+The scatter plot mapped estimated order value across all transactions. It revealed that the average order hovered around $35–40 in the early months, and crept toward $50+ after our pricing adjustment. Outliers — such as a 15-hoodie sorority order at $645 — were clearly visible and confirmed that B2B and group orders were a meaningful revenue driver worth pursuing.
 
-#### 2.2 Final Payment Per Order (Scatter Plot)
+#### 2.2 Final Payment Per Order
 **Business question:** Is what customers actually pay matching what we expect?
 
 Comparing final payment against estimated price revealed that most customers paid close to or slightly above the estimate — a sign of healthy customer trust. A few outliers paid significantly less (partial payments, discounts) which we could trace back to specific deals. This comparison also exposed cases where we undercharged, which informed future pricing tightening.
@@ -91,17 +92,17 @@ Inventory (raw clothing) was by far the largest expense category, followed by Eq
 #### 2.4 Revenue Over Time
 **Business question:** Are sales growing, plateauing, or declining?
 
-Revenue grew steadily from $0 in January (setup month) through a peak of $1,936 in June. The drop to $289 in July reflects the final orders fulfilled as the business was wound down — not a seasonal dip. The overall trend confirmed that the organic Instagram growth strategy was working consistently through the entire operating period.
+Revenue grew steadily from $0 in January (setup month) through a peak of $1,936 in June. The drop in August reflects the final orders fulfilled as the business was wound down — not a seasonal dip. The overall trend confirmed that the organic Instagram growth strategy was working consistently through the entire operating period.
 
 #### 2.5 Profit / Loss Over Time
 **Business question:** When do we break even, and are we actually building a profitable business?
 
-January and February were deep in the red due to equipment and initial inventory costs. The business turned its first monthly profit in March (+$365) and broke even on a cumulative basis in April. From April through June, monthly profit was consistently positive and growing. The total net profit across the business lifetime was **$1,543.15**, confirming that the model was viable — we were profitable within 4 months of launch with zero external funding.
+January and February were deep in the red due to equipment and initial inventory costs. The business turned its first monthly profit in March (+$365) and broke even on a cumulative basis in April. From April through June, monthly profit was consistently positive and growing. Total net profit across the business lifetime was **$1,543.15** — profitable within 4 months of launch with zero external funding.
 
 #### 2.6 Type of Expense
 **Business question:** Is our spending mix healthy, and where can we cut?
 
-Breaking expenses into Equipment, Inventory, Materials, Packaging, and Advertisement showed that inventory was dominating spend (as expected for a product business), and that advertisement cost was nearly zero — just $10 on a single Instagram promotion. This validated our bet on organic growth and word-of-mouth as the primary marketing channel.
+Breaking expenses into Equipment, Inventory, Materials, Packaging, and Advertisement showed that inventory was dominating spend as expected, and that advertisement cost was nearly zero — just $10 on a single Instagram promotion. This validated our bet on organic growth and word-of-mouth as the primary marketing channel.
 
 ---
 
@@ -112,17 +113,17 @@ This section tracked customer behaviour and channel performance to improve opera
 #### 3.1 Delivery Preference
 **Business question:** What delivery options do customers actually want, and which are worth offering?
 
-The majority of customers chose free drop-off, followed by Canada Post shipping, with pick-up being the least popular. Delivery (paid courier) was rarely requested. This told us that offering free local drop-off was a genuine competitive advantage that drove conversions — customers valued the convenience. Canada Post volume was enough to justify keeping it as a standard option, but paid delivery was not worth building out further.
+The majority of customers chose free drop-off, followed by Canada Post shipping, with pick-up being the least popular. This told us that offering free local drop-off was a genuine competitive advantage that drove conversions. Canada Post volume was enough to justify keeping it as a standard option, but paid courier delivery was not worth building out further.
 
 #### 3.2 Payment Preference
-**Business question:** Should we invest in payment infrastructure (card processing, etc.)?
+**Business question:** Should we invest in payment infrastructure?
 
-E-transfer dominated overwhelmingly over cash. This confirmed that keeping e-transfer as the primary payment method was the right call — there was no demand signal that justified the cost or complexity of card payment infrastructure for a business at our scale.
+E-transfer dominated overwhelmingly over cash. This confirmed that keeping e-transfer as the primary payment method was the right call — there was no demand signal that justified the cost or complexity of card payment infrastructure at our scale.
 
-#### 3.3 Shared on Client's Instagram
+#### 3.3 Instagram Sharing Deal
 **Business question:** Does the 10% discount-for-a-story promotion actually drive word-of-mouth?
 
-A significant portion of customers took the Instagram sharing deal — posting our brand to their story in exchange for 10% off their next order. This was our primary marketing channel. The data confirmed two things: customers were incentivized to come back (repeat purchase driver) and we were getting genuine organic reach into new audiences through their networks. The cost of the discount was easily justified by the marketing exposure and the repeat purchase behaviour it created.
+A significant portion of customers took the Instagram sharing deal — posting our brand to their story in exchange for 10% off their next order. The data confirmed two things: customers were incentivized to return (repeat purchase driver) and we were getting genuine organic reach into new audiences through their networks. The cost of the discount was easily justified by the marketing exposure and repeat purchase behaviour it created.
 
 ---
 
@@ -137,12 +138,12 @@ A significant portion of customers took the Instagram sharing deal — posting o
 
 ---
 
-## Tools
-
-Google Sheets · Excel-compatible formulas · Pivot tables · Charts & data visualization
-
----
-
 ## Notes
 
 All client names in the raw data are represented by first initial only. Financial figures reflect actual transactions from January–August 2021.
+
+---
+
+## 🤝 License
+
+Licensed under the [MIT License](LICENSE).
