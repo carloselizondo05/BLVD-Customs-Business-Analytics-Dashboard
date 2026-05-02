@@ -28,6 +28,8 @@ This project documents that analytics infrastructure: the questions we were aski
 | Units Sold | 204 (69 hoodies · 105 crewnecks · 27 t-shirts) |
 | Instagram Follower Growth | 500+ in 3 months (organic) |
 
+![Profit and Loss Over Time](./Profit_Loss.png)
+
 ---
 
 ## Dashboard Structure
